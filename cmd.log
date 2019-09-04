@@ -1,0 +1,26 @@
+    1  git config --global user.email asadeg@htcompass.fr
+    2  git config --global user.name "Ali SADEG"
+    3  ls
+    4  git mkdir apolo-14
+    5  mkdir apolo-14
+    6  ls
+    7  ls -l
+    8  cd apolo-14
+    9  git init
+   10  ls
+   11  ls -l
+   12  cd ..
+   13  cd apolo-14/
+   14  ls -a
+   15  git status
+   16  clear
+   17  git status
+   18  git add script-insert-data.sql 
+   19  git status
+   20  git commit -m "add insert script for books"
+   21  git log
+   22  git remote add origin https://github.com/htcasadeg/apolo.git
+   23  git push -u origin master
+   24  git commit
+   25  history
+   26  history > cmd.log
